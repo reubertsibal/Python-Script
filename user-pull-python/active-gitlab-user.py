@@ -28,7 +28,7 @@ def get_gitlab_users(api_token, gitlab_url):
 
 def main():
     api_token = "test"  # Your GitLab API token
-    gitlab_url = "https://git.growsari.com/"  # Your GitLab URL
+    gitlab_url = "https://git.com/"  # Your GitLab URL
 
     users = get_gitlab_users(api_token, gitlab_url)
 
